@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible", content="IE-Edge">
+        <meta name="viewport" content="width-device-width", initial-scale="1.0">
+        <title>Pokedex</title>
+        <link href="./Archivos/diseno.css" rel = "stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Fredoka&family=Hurricane&family=M+PLUS+1:wght@500&family=Nova+Square&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="botonA">
+            <button id="botonClick">Click</button>
+            <p id="areaContador"></p>
+        </div>
+        <img src="./Archivos/fondo2.jpg" id="brackground">  
+        <img src="./Archivos/logo.png" id="brackground3">  
+        <div class="general">
+            <img src="./Archivos/plantillapoke.png" id="imgback">       
+            <p id="search1">Ingrese el nombre de</p>
+            <p id="search2">su pokemon: </p>
+            <input type="text" placeholder="Ej. Pikachu" id="pokeName" name="pokeName" >
+            <button onclick="fetchPokemon()" id="Buttonsearch">Buscar</button>
+            <img src="./Archivos/pokeball.png" alt="Pokemon" id="pokeImg">
+            <div id="nyid"></div>
+            <div>
+                <p id="tipoD">Type: </p>
+                <div class="typee">
+                    <p id="typee"></p>
+                </div>
+            </div>
+            <div>
+                <p id="Moves">Moves: </p>
+                <div class="moves">
+                    <p id="moves"></p>
+                    <p id="moves2"></p>
+                    <p id="moves3"></p>
+                    <p id="moves4"></p>
+                    <p id="moves5"></p>
+                    <p id="moves6"></p>
+                    <p id="moves7"></p>
+                    <p id="moves8"></p>
+                    <p id="moves9"></p>
+                    <p id="moves10"></p>
+                </div>
+            </div>
+
+           <div>
+               <p id="MovesV"></p>
+               <p id="altu">Altura: </p>
+               <p id="pes">Peso: </p>
+               <div>
+                <p id="altura"></p>
+                <p id="peso"></p>
+               </div>
+           </div> 
+
+        </div>
+        
+    </body>
+    <footer>
+        <script src="./Archivos/api.js"></script>
+        <script src="./Archivos/others.js"></script>
+    </footer>
+
+</html>
